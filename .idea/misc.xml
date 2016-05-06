@@ -54,6 +54,7 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+<<<<<<< Updated upstream
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
@@ -70,4 +71,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> Stashed changes
 </project>

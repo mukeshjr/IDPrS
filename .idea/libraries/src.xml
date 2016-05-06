@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/lombok-master/buildScripts/src" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/experimental/src" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/core" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/delombok" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/eclipseAgent" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/installer" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/javac-only-stubs" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/launch" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/stubs" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/stubsstubs" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/src/utils" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/bytecode/resource" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/bytecode/src" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/configuration/src" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/core/src" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/ecj" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/pretty/resource/after" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/pretty/resource/before" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/transform/resource/after-delombok" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/transform/resource/after-ecj" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/transform/resource/before" />
+      <root url="file://$USER_HOME$/Downloads/lombok-master/test/transform/src" />
+    </SOURCES>
+  </library>
+</component>

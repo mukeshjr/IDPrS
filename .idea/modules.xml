@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/HMM-master-2/HMM-master-2.iml" filepath="$USER_HOME$/Downloads/HMM-master-2/HMM-master-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDPrS.iml" filepath="$PROJECT_DIR$/IDPrS.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/buildScripts/buildScripts.iml" filepath="$USER_HOME$/Downloads/lombok-master/buildScripts/buildScripts.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/test/bytecode/bytecode.iml" filepath="$USER_HOME$/Downloads/lombok-master/test/bytecode/bytecode.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/test/configuration/configuration.iml" filepath="$USER_HOME$/Downloads/lombok-master/test/configuration/configuration.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/test/core/core.iml" filepath="$USER_HOME$/Downloads/lombok-master/test/core/core.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/experimental/experimental.iml" filepath="$USER_HOME$/Downloads/lombok-master/experimental/experimental.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/src/lombok-master.iml" filepath="$USER_HOME$/Downloads/lombok-master/src/lombok-master.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/test/transform/resource/resource.iml" filepath="$USER_HOME$/Downloads/lombok-master/test/transform/resource/resource.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/test/pretty/resource/resource1.iml" filepath="$USER_HOME$/Downloads/lombok-master/test/pretty/resource/resource1.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/test/test.iml" filepath="$USER_HOME$/Downloads/lombok-master/test/test.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/lombok-master/test/transform/transform.iml" filepath="$USER_HOME$/Downloads/lombok-master/test/transform/transform.iml" />
     </modules>
   </component>
 </project>
