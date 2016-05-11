@@ -6,7 +6,7 @@ public class LinearHMM extends HMM {
 	public LinearHMM(String name, int stateLength, int delta) {
 		super.stateLength = stateLength;
 		super.delta = delta;
-		super.name = name;
+//		super.name = name;
 		initialize();
 	}
 
@@ -17,7 +17,7 @@ public class LinearHMM extends HMM {
 		super.piMatrix = piMatrix;
 		super.stateLength = stateTransitProbMatrix.length;
 		super.delta = emissionProbMatrix[0].length;
-		super.name = name;
+//		super.name = name;
 	}
 
 	@Override

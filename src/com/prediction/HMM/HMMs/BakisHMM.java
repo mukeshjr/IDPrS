@@ -6,7 +6,7 @@ public class BakisHMM extends HMM {
 	public BakisHMM(String name, int stateLength, int delta) {
 		super.stateLength  = stateLength;
 		super.delta = delta;
-		super.name = name;
+//		super.name = name;
 		initialize();
 	}
 
@@ -16,7 +16,7 @@ public class BakisHMM extends HMM {
 		super.piMatrix = piMatrix;
 		super.stateLength = stateTransitProbMatrix.length;
 		super.delta = emissionProbMatrix[0].length;
-		super.name = name;
+//		super.name = name;
 		
 	}
 	
