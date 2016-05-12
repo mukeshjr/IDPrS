@@ -13,8 +13,8 @@ public class PredictAlgo{
     private int ACC_ALERT_FREQUENCY;
     private int ALERT_SEVERITY;
 
-    private GLRHMM("Intrusion Prediction", 4, 0);
-    private EvalGLRHMM();
+//    private GLRHMM("Intrusion Prediction", 4, 0);
+//    private EvalGLRHMM();
 
     private boolean INTRUSION_PROB = false;
 
