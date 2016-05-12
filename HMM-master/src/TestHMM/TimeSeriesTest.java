@@ -1,4 +1,4 @@
-//package com.prediction.HMM.TestHMM;
+//package TestHMM;
 //
 //public class TimeSeriesTest {
 //

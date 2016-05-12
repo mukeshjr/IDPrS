@@ -7,8 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="core" exported="" />
-    <orderEntry type="module" module-name="lombok-master" exported="" />
-    <orderEntry type="module" module-name="HMM-master" exported="" />
   </component>
 </module>
