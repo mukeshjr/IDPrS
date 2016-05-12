@@ -101,6 +101,6 @@ public class Test2 {
 			}
 		}
 
-		System.out.println("Letter Recognized: " + maxHMM.getName());
+//		System.out.println("Letter Recognized: " + maxHMM.getName());
 	}
 }

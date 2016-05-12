@@ -3,7 +3,7 @@ package com.prediction.HMM.HMMState;
 import java.util.Iterator;
 import java.util.Stack;
 
-public class StatesIterator implements Iterator {
+class StatesIterator implements Iterator {
 	Stack<Iterator> stack = new Stack<Iterator>();
 	
 	public StatesIterator(Iterator<StateComponent> iterator) {

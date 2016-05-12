@@ -57,7 +57,7 @@ public class Test1 {
 		}
 		
 		System.out.println();
-		System.out.println("Improvements: " + (temp2 - temp));
+//		System.out.println("Improvements: " + (temp2 - temp));
 		
 		System.out.println();
 		decodeErgodicHMM.Viterbi();
