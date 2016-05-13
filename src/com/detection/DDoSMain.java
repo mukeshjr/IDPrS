@@ -3,8 +3,8 @@ package com.detection;
 /**
  * Created by User on 6/5/2016.
  */
+
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -16,7 +16,7 @@ public class DDoSMain {
         //FileInputStream fin = new FileInputStream("input.txt");
         //br = new  BufferedReader (new InputStreamReader (fin));
 
-        br = new BufferedReader (new InputStreamReader (System.in));
+        br = new BufferedReader(new InputStreamReader(System.in));
 
         //int N = Integer.parseInt(br.readLine());
         long[][] points = new long[100000][2];
@@ -25,8 +25,7 @@ public class DDoSMain {
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == ',') {
                 sb = sb + " ";
-            }
-            else if (s.charAt(i) != '[' && s.charAt(i) != ']') {
+            } else if (s.charAt(i) != '[' && s.charAt(i) != ']') {
                 sb = sb + s.charAt(i);
             }
         }
@@ -35,7 +34,7 @@ public class DDoSMain {
         int i = 0;
         StringTokenizer st = new StringTokenizer(sb);
         String input;
-        while(st.hasMoreTokens()) {
+        while (st.hasMoreTokens()) {
             input = st.nextToken();
             points[i][0] = Long.parseLong(input);
             input = st.nextToken();

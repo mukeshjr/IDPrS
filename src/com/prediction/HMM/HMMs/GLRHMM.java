@@ -3,7 +3,7 @@ package com.prediction.HMM.HMMs;
 
 public class GLRHMM extends HMM{
 
-	// Used for training
+	// Used for training purposes
 		public GLRHMM(String name, int stateLength, int delta) {
 			super.stateLength = stateLength;
 			super.delta = delta;

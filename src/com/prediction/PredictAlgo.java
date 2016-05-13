@@ -1,12 +1,9 @@
 package com.prediction;
 
-import com.prediction.HMM.HMMEval.EvalGLRHMM;
-import com.prediction.HMM.HMMs.GLRHMM;
-
 /**
  * Created by Mukesh on 05/05/2016.
  */
-public class PredictAlgo{
+public class PredictAlgo {
 
     private int ALERT_FREQUENCY;
     private int ALERT_EFFECT;
@@ -14,41 +11,35 @@ public class PredictAlgo{
     private int ALERT_SEVERITY;
 
 
-
     private boolean INTRUSION_PROB = false;
 
-    private void calculateAlertFrequency()
-    {
+    private void calculateAlertFrequency() {
 
     }
 
-    private void calculateAlertEffect()
-    {
+    private void calculateAlertEffect() {
 
     }
 
 
-    private void calculateAcceptableAlertFrequency()
-    {
+    private void calculateAcceptableAlertFrequency() {
 
     }
 
-    private void alertSeverityModulation()
-    {
+    private void alertSeverityModulation() {
 
-        if(ALERT_SEVERITY >= 4){
+        if (ALERT_SEVERITY >= 4) {
 
-        }else if (ALERT_SEVERITY >= 3){
+        } else if (ALERT_SEVERITY >= 3) {
 
-        }else if (ALERT_SEVERITY >= 2){
+        } else if (ALERT_SEVERITY >= 2) {
 
-        }else{
+        } else {
 
         }
     }
 
-    private void updateStateDistribution()
-    {
+    private void updateStateDistribution() {
 
 
 //        int sum = 0;
@@ -78,14 +69,13 @@ public class PredictAlgo{
 //        }
     }
 
-    private void intrusionProbability(int obs_ix, int s)
-    {
+    private void intrusionProbability(int obs_ix, int s) {
         s = 4;
 
-        if(obs_ix == 0){
+        if (obs_ix == 0) {
             INTRUSION_PROB = true;
 
-        }else{
+        } else {
             INTRUSION_PROB = false;
 
         }
