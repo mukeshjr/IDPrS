@@ -5,7 +5,7 @@ import com.response.Alert;
 /**
  * Created by User on 6/5/2016.
  */
-public class KMeansClustering implements KMeansParameters{
+public class Clustering implements Param{
 
     // N is the number of points
     private int N;
@@ -25,9 +25,9 @@ public class KMeansClustering implements KMeansParameters{
     private double centroid2;
 
     /*
-     *  Constructor for KMeansClustering Class
+     *  Constructor for Clustering Class
      */
-    public KMeansClustering(int N, long[][] points2) {
+    public Clustering(int N, long[][] points2) {
         setN(N);
         points = new long[N][2];
         logPoints = new double[N][2];
@@ -129,7 +129,7 @@ public class KMeansClustering implements KMeansParameters{
     // Display clusters - one of the clusters will suggest DDoS
     int ddosCluster = 1;
     public void displayEpochsDDoS() {
-		/*
+
 		System.out.println("Cluster 1: ");
 		for (int i = 0; i  < N; i++) {
 			if (clusters[i] == 1) {
@@ -142,7 +142,7 @@ public class KMeansClustering implements KMeansParameters{
 				System.out.println("\t["+points[i][0]+", "+points[i][1]+"]");
 			}
 		}
-		*/
+
         for (int i = 0; i < N; i++) {
             if (points[i][1] == maxPoint) {
                 ddosCluster = clusters[i];
@@ -151,11 +151,11 @@ public class KMeansClustering implements KMeansParameters{
                 break;
             }
         }
-		/*
+
 		System.out.println("====================================");
 		System.out.println("        DDoS time intervals         ");
 		System.out.println("====================================");
-		*/
+
         long start = 0, end=0;
         System.out.print("[");
         boolean first = true;

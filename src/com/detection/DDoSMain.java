@@ -13,12 +13,12 @@ public class DDoSMain {
     private static BufferedReader br;
 
     public static void main(String[] args) throws NumberFormatException, IOException {
-        //FileInputStream fin = new FileInputStream("input.txt");
-        //br = new  BufferedReader (new InputStreamReader (fin));
+        FileInputStream fin = new FileInputStream("C:\\Users\\User\\Desktop\\IDPrS\\input.txt");
+        br = new  BufferedReader (new InputStreamReader (fin));
 
         br = new BufferedReader(new InputStreamReader(System.in));
 
-        //int N = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
         long[][] points = new long[100000][2];
         String s = br.readLine();
         String sb = "";
@@ -42,7 +42,7 @@ public class DDoSMain {
             i++;
         }
 
-        KMeansClustering kmeans = new KMeansClustering(i, points);
+        Clustering kmeans = new Clustering(i, points);
         kmeans.initialization();
         kmeans.startClustering();
         kmeans.displayEpochsDDoS();
