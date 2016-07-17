@@ -19,7 +19,7 @@ public class DDoSMain {
 
         br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = Integer.parseInt(br.readLine());
+       // int N = Integer.parseInt(br.readLine());
         long[][] points = new long[100000][2];
         String s = br.readLine();
         String sb = "";

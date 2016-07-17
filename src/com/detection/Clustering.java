@@ -146,9 +146,10 @@ public class Clustering implements Param{
         for (int i = 0; i < N; i++) {
             if (points[i][1] == maxPoint) {
                 ddosCluster = clusters[i];
-                Alert newAlert = new Alert("DDoS");
-                Alert.main();
+                Alert newAlert = new Alert("DDoS ongoing");
+                newAlert.main();
                 break;
+
             }
         }
 
