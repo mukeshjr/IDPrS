@@ -14,10 +14,10 @@ public class Alert {
         }
 
         public static void main() {
-            JOptionPane.showMessageDialog(null,"An " + Attack +" Attack is happening",
+            JOptionPane.showMessageDialog(null,"A " + Attack +" Attack is happening",
                     "Intrusion Detection - Attack Detected", JOptionPane.ERROR_MESSAGE);
 
-            Email sendEmail = new Email("mukesh271194@gmail.com", "qwertify2015@gmail.com", "IDPrS - Intrusion Alert", "An "
+            Email sendEmail = new Email("mukesh271194@gmail.com", "qwertify2015@gmail.com", "IDPrS - Intrusion Alert", "A "
                     + Attack + " Attack is happening" + "," + "Intrusion Detection - Attack Detected");
             sendEmail.main(null);
 

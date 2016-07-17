@@ -1,8 +1,9 @@
 package com.detection;
 
 /**
- * Created by User on 6/5/2016.
+ * Created by Praveen on 6/5/2016.
  */
+
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,14 +11,16 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+
 public class DDoSMain {
     private static BufferedReader br;
+
 
     public static void main(String[] args) throws NumberFormatException, IOException {
         FileInputStream fin = new FileInputStream("C:\\Users\\User\\Desktop\\IDPrS\\input.txt");
         br = new  BufferedReader (new InputStreamReader (fin));
-
         br = new BufferedReader(new InputStreamReader(System.in));
+
 
        // int N = Integer.parseInt(br.readLine());
         long[][] points = new long[100000][2];
@@ -31,6 +34,7 @@ public class DDoSMain {
             }
         }
 
+
         //System.out.println(sb);
         int i = 0;
         StringTokenizer st = new StringTokenizer(sb);
@@ -41,11 +45,13 @@ public class DDoSMain {
             input = st.nextToken();
             points[i][1] = Long.parseLong(input);
             i++;
+
         }
 
         Clustering kmeans = new Clustering(i, points);
         kmeans.initialization();
         kmeans.startClustering();
         kmeans.displayEpochsDDoS();
+
     }
 }

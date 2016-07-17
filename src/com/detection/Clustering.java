@@ -1,9 +1,7 @@
 package com.detection;
 
-import com.response.Alert;
-
 /**
- * Created by User on 6/5/2016.
+ * Created by Praveen on 6/5/2016.
  */
 public class Clustering implements Param{
 
@@ -52,12 +50,14 @@ public class Clustering implements Param{
         }
 
         clusters = new int[N];
+
     }
     /*
      * Getter method for N
      */
     public int getN() {
         return N;
+
     }
     /*
      * Setter method for N
@@ -146,8 +146,6 @@ public class Clustering implements Param{
         for (int i = 0; i < N; i++) {
             if (points[i][1] == maxPoint) {
                 ddosCluster = clusters[i];
-                Alert newAlert = new Alert("DDoS ongoing");
-                newAlert.main();
                 break;
 
             }
@@ -180,7 +178,7 @@ public class Clustering implements Param{
 
         }
         System.out.print("]");
-    }
 
+    }
 
 }
