@@ -10,5 +10,14 @@
     <orderEntry type="module" module-name="core" exported="" />
     <orderEntry type="module" module-name="lombok-master" exported="" />
     <orderEntry type="module" module-name="HMM-master" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/javamail-1.4.7/mail.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -1,5 +1,7 @@
 package com.detection;
 
+import com.response.Alert;
+
 /**
  * Created by User on 6/5/2016.
  */
@@ -46,7 +48,7 @@ public class KMeansClustering implements KMeansParameters{
         }
         for (int i = 0; i < N; i++) {
             logPoints[i][0] = (double)points[i][0];
-            logPoints[i][1] = (double)Math.log(minPoint) + Math.log((1+points[i][1]))/Math.log(1+maxPoint);
+            logPoints[i][1] = Math.log(minPoint) + Math.log((1+points[i][1]))/Math.log(1+maxPoint);
         }
 
         clusters = new int[N];
@@ -109,8 +111,8 @@ public class KMeansClustering implements KMeansParameters{
                 n2++;
             }
         }
-        centroid1 = (double)sum1/n1;
-        centroid2 = (double)sum2/n2;
+        centroid1 = sum1 /n1;
+        centroid2 = sum2 /n2;
     }
 
     /*
@@ -144,6 +146,8 @@ public class KMeansClustering implements KMeansParameters{
         for (int i = 0; i < N; i++) {
             if (points[i][1] == maxPoint) {
                 ddosCluster = clusters[i];
+                Alert newAlert = new Alert("DDoS");
+                Alert.main();
                 break;
             }
         }

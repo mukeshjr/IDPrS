@@ -4,6 +4,7 @@ package com.prediction.HMM.HMMs;
 public abstract class HMM {
 	double[][] stateTransitProbMatrix;
 	double[][] emissionProbMatrix;
+	double[][] alertsCorrelationMatrix;
 	double[] piMatrix;
 	int stateLength;
 	int delta;

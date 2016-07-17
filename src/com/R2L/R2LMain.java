@@ -1,5 +1,7 @@
 package com.R2L;
 
+import com.response.Alert;
+
 /**
  * Created by Naz on 10/5/16.
  */
@@ -12,13 +14,9 @@ public class R2LMain {
     public static void main(String[] args) {
 
         //to pass information processed from packet collector
-
-
-
         //sample attack
-        //WarezMasterRule(266,"tcp","ftp",256617,0,1);
-        WarezMasterRule(264,"tcp","ftp",256615,0,0);
-
+        WarezMasterRule(266,"tcp","ftp",256617,0,1);
+       // WarezMasterRule(264,"tcp","ftp",256615,0,0);
 
         //WarezClientRule(5,"tcp","ftp",1,3299,1);
     }

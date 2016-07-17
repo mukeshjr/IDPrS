@@ -251,4 +251,16 @@ public class TrainGLRHMM extends Training {
         hmm.setEmissionProbMatrix(newEmissionMatrix);
         hmm.setPiMatrix(newPiMatrix);
     }
+
+    public static void main(){
+
+        int [] intrusion_observation = new int[4];
+        Observation obs = new Observation(intrusion_observation);
+
+
+//        GLRHMM HMM = new GLRHMM();
+//        TrainGLRHMM training = new TrainGLRHMM(obs, HMM);
+//
+//        training.printUpdate();
+    }
 }

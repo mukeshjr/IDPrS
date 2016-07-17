@@ -12,14 +12,18 @@ public class GLRHMM extends HMM{
 		}
 
 		// Used for Decoding and Evaluation
-		public GLRHMM(String name, double[][] stateTransitProbMatrix,
-				double[][] emissionProbMatrix, double[] piMatrix) {
+
+		public GLRHMM(double[][] stateTransitProbMatrix,
+					  double[][] emissionProbMatrix,
+					  double[][] alertsCorrelationMatrix,
+					  double[] piMatrix)
+		{
 			super.stateTransitProbMatrix = stateTransitProbMatrix;
 			super.emissionProbMatrix = emissionProbMatrix;
+			super.alertsCorrelationMatrix = alertsCorrelationMatrix;
 			super.piMatrix = piMatrix;
 			super.stateLength = stateTransitProbMatrix.length;
 			super.delta = emissionProbMatrix[0].length;
-//			super.name = name;
 		}
 		
 		@Override
