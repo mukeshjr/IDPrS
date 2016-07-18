@@ -16,17 +16,17 @@ public class DatabaseConnector {
             try{
                 Class.forName("com.mysql.jdbc.Driver");
 
-                Connection con= DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/sonoo","root","root");
+                Connection con= DriverManager.getConnection("jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6127999","sql6127999","iKjhSEP2ew");
+
 
 //here sonoo is database name, root is username and password
 
                 Statement stmt=con.createStatement();
 
-                ResultSet rs=stmt.executeQuery("select * from emp");
+                ResultSet rs=stmt.executeQuery("SELECT * FROM ddos");
 
                 while(rs.next())
-                    System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3));
+                    System.out.println(rs.getString(1));
 
                 con.close();
 
