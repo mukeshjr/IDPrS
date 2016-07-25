@@ -12,7 +12,6 @@ public class GLRHMM extends HMM{
 		}
 
 		// Used for Decoding and Evaluation
-
 		public GLRHMM(double[][] stateTransitProbMatrix,
 					  double[][] emissionProbMatrix,
 					  double[][] alertsCorrelationMatrix,

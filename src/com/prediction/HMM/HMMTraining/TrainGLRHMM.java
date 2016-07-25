@@ -1,6 +1,7 @@
 package com.prediction.HMM.HMMTraining;
 
 import com.prediction.HMM.HMMObservation.Observation;
+import com.prediction.HMM.HMMs.GLRHMM;
 import com.prediction.HMM.HMMs.HMM;
 
 public class TrainGLRHMM extends Training {
@@ -258,9 +259,9 @@ public class TrainGLRHMM extends Training {
         Observation obs = new Observation(intrusion_observation);
 
 
-//        GLRHMM HMM = new GLRHMM();
-//        TrainGLRHMM training = new TrainGLRHMM(obs, HMM);
-//
-//        training.printUpdate();
+        GLRHMM HMM = new GLRHMM("Prediction ALgo",4,0);
+        TrainGLRHMM training = new TrainGLRHMM(obs, HMM);
+
+        training.printUpdate();
     }
 }
